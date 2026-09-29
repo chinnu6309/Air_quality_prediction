@@ -1,0 +1,50 @@
+{
+  "dataset": "data/air_quality.csv",
+  "city_filter": null,
+  "rows_after_target_cleaning": 730,
+  "train_rows": 584,
+  "test_rows": 146,
+  "missing_feature_values_before_imputation": {
+    "PM2.5": 8,
+    "PM10": 0,
+    "NO2": 8,
+    "SO2": 0,
+    "CO": 0,
+    "O3": 0,
+    "Temperature": 0,
+    "Humidity": 8,
+    "WindSpeed": 0,
+    "Year": 0,
+    "Month": 0,
+    "Day": 0,
+    "DayOfWeek": 0,
+    "Hour": 0
+  },
+  "best_model": "Ridge Regression",
+  "best_test_metrics": {
+    "model": "Ridge Regression",
+    "MAE": 8.014532949454322,
+    "RMSE": 10.259975822699047,
+    "R2": 0.7636793786846834
+  },
+  "all_models": [
+    {
+      "model": "Ridge Regression",
+      "MAE": 8.014532949454322,
+      "RMSE": 10.259975822699047,
+      "R2": 0.7636793786846834
+    },
+    {
+      "model": "Gradient Boosting",
+      "MAE": 8.918929515443791,
+      "RMSE": 11.034376527594977,
+      "R2": 0.7266591480079971
+    },
+    {
+      "model": "Random Forest",
+      "MAE": 9.57767036016989,
+      "RMSE": 11.776298301759683,
+      "R2": 0.6886660073289628
+    }
+  ]
+}
